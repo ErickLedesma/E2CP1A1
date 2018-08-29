@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banderas</title>
+	<style type="text/css">
+		.rectangulo {
+			width: 450px;
+			height: 250px;
+			margin: 60px;
+			border: 2px solid black;
+			float: left;
+			z-index: 0;
+		}
+		.rojo {
+			background-color: red;
+			width: 100%;
+			height: 27%;
+			display: block;
+			z-index: 2;
+			float: top;
+		}
+		.blanco {
+			background-color: white;
+		}
+		.amarillo {
+			background-color: yellow;
+			width: 100%;
+			height: 46%;
+			display: block;
+			z-index: 2;
+			float: top;
+		}
+		.negro {
+			background-color: black;
+		}
+		.verde {
+			background-color: green;
+        }			
+		.rec-rojo1 {
+			background-color: red;
+			width: 31%;
+			height: 44%;
+			position: static;
+			float: left;
+		}
+
+		.rec-blanco1 {
+			background-color: white;
+			width: 7%;
+			height: 44%;
+			position: static;
+			float: left;
+		}
+
+		.rec-rojo2 {
+			background-color: red;
+			width: 62%;
+			height: 44%;
+            float: left;
+		}
+
+		.rec-blanco2 {
+			background-color: white;
+			width: 100%;
+			height: 12%;
+			position: static;
+			float: left;
+		}
+
+		.circulo-rojo {     
+			width: 120px;
+            height: 120px;
+            -moz-border-radius: 100%;
+            -webkit-border-radius: 100%;
+            border-radius: 100%;
+            background: red;
+            margin-left: 165px;
+            margin-top: 65px;
+					}
+		.rec-verde {
+			background-color: green;
+			width: 100%;
+			height: 33.3%;
+			display: block;
+			z-index: 1;
+		}
+
+		.rec-blanco {
+			background-color: white;
+			width: 100%;
+			height: 33.3%;
+			display: block;
+			z-index: 1;
+		}
+
+		.rec-negro {
+			background-color: black;
+			width: 100%;
+			height: 33.4%;
+			display: block;
+			z-index: 1;
+		}
+
+		.barra-roja {
+			background-color: red;
+			width: 20%;
+			height: 100%;
+			display: block;
+			z-index: 2;
+			position: relative;
+			left: 0;
+			top: -100%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="rectangulo">
+		<div class="rojo"></div>
+		<div class="amarillo"></div>
+		<div class="rojo"></div>
+	</div>
+	<div class="rectangulo">
+		<div class="rec-rojo1"></div>
+		<div class="rec-blanco1"></div>
+		<div class="rec-rojo2"></div>
+		<div class="rec-blanco2"></div>
+		<div class="rec-rojo1"></div>
+		<div class="rec-blanco1"></div>
+		<div class="rec-rojo2"></div>
+	</div>
+	<div class="rectangulo">
+		<div class="rec-verde"></div>
+		<div class="rec-blanco"></div>
+		<div class="rec-negro"></div>
+		<div class="barra-roja"></div>
+	</div>
+	<div class="rectangulo">
+		<div class="circulo-rojo"></div>
+	</div>
+</body>
+</html>
