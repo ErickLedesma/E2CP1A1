@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 5</title>
+	<style type="text/css">
+		.galeria {
+			margin: 100px;
+		}
+		.rec-blanco1 {
+			background-color: white;
+			position: absolute;
+			z-index: 20;
+			height: 40px;
+			width: 700px;
+			display: block;
+		}		
+		.rec-blanco2 {
+			background-color: white;
+			position: absolute;
+			z-index: 20;
+			height: 300px;
+			width: 40px;
+			float: left;
+		}
+
+		.ribbon {
+			background: blue;
+			width: 290px;
+			height: 40px;
+			position: absolute;
+			left: 100px;
+			top: 185px;
+			-webkit-transform: rotate(-35deg);
+			z-index: 5; 
+		}
+		.letras {
+			color: white;
+			font-weight: bold;
+			text-align: center;
+			font-family: "Arial";
+			font-size: 28px;
+			position: relative;
+			top: -20px;
+		}
+		.imagen {
+			position: absolute;
+			z-index: -4;
+			float: left;
+			margin-left: 40px;
+			margin-top: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="galeria">
+		<div class="rec-blanco1"></div>
+		<div class="rec-blanco2"></div>
+		<img class="imagen" src="../images/oferta_lente.jpg">
+		<div class="ribbon">
+			<p class="letras">OFERTA</p>
+		</div>
+	</div>
+</body>
+</html>
